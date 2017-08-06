@@ -15,5 +15,11 @@ alias ans="atom . & npm start"
 export NVM_DIR=~/.nvm
  .  $(brew --prefix nvm)/nvm.sh
 
+ # -- ruby
+ export PATH="$HOME/.rbenv/shims:$PATH"
+
+ # -- yarn
+ export PATH="$HOME/.yarn/bin:$PATH"
+
 # -- perlbrew ----
 source ~/perl5/perlbrew/etc/bashrc
