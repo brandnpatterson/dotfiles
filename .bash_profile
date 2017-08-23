@@ -8,21 +8,25 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 # -------
 alias ll="ls -la"
 alias ls="ls -GFh"
-alias pomg="push origin master && git checkout gh-pages && git merge master && git push origin gh-pages && git checkout master"
 alias ans="atom . & npm start"
 
 # -- code
-alias cd:php="cd Documents/Code/scotch-box"
-alias cd:ruby="cd Documents/Code/rails-dev-box"
-alias cd:node="cd Documents/Code/node"
 alias cd:code="cd Documents/Code"
+alias cd:node="cd Documents/Code/node"
+alias cd:php="cd Documents/Code/php"
+alias cd:react="cd Documents/Code/react"
+alias cd:ruby="cd Documents/Code/ruby"
+alias cd:sb="cd Documents/Code/scotch-box"
 
 # -- nvm ----
 export NVM_DIR=~/.nvm
 . $(brew --prefix nvm)/nvm.sh
 
- # -- ruby
- export PATH="$HOME/.rbenv/shims:$PATH"
+# -- ruby
+export PATH="$HOME/.rbenv/shims:$PATH"
 
  # -- yarn
  export PATH="$HOME/.yarn/bin:$PATH"
+
+# -- host
+ export PGHOST=localhost
