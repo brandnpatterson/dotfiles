@@ -17,6 +17,15 @@ alias cd:php="cd Documents/Code/php"
 alias cd:react="cd Documents/Code/react"
 alias cd:ruby="cd Documents/Code/ruby"
 alias cd:sb="cd Documents/Code/scotch-box"
+alias cd:vue="cd Documents/Code/vue"
+
+# -- idiosync
+alias cd:idiosync="cd:ruby && cd idiosync && rails s"
+alias cd:idiosync-ui="cd:react && cd idiosync-ui && npm start
+"
+
+# - rails -- rspec
+alias rspec="bundle exec rspec"
 
 # -- nvm ----
 export NVM_DIR=~/.nvm
