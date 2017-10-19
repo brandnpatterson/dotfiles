@@ -8,8 +8,6 @@ export NVM_DIR=~/.nvm
 . $(brew --prefix nvm)/nvm.sh
 
 # --- SVN ---
-alias inf:trunk="svn up --set-depth infinity trunk"
-
 # cd www
 # svn co https:// --depth immediates repo
 # cd repo
@@ -22,9 +20,6 @@ alias inf:trunk="svn up --set-depth infinity trunk"
 # cd branches/branch
 # svn up
 # svn commit -m 'created new branch'
-
-# - rails -- rspec
-alias rspec="bundle exec rspec"
 
  # -- ruby
 export PATH="$HOME/.rbenv/shims:$PATH"
