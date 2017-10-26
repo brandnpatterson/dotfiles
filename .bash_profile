@@ -21,7 +21,10 @@ export NVM_DIR=~/.nvm
 # svn up
 # svn commit -m 'created new branch'
 
- # -- ruby
+# -- pear
+export PATH="/usr/local/mysql/bin:/Users/sg0301656/pear/bin/:$PATH"
+
+# -- ruby
 export PATH="$HOME/.rbenv/shims:$PATH"
 
 # -- yarn
