@@ -27,8 +27,6 @@ export PGHOST=localhost
 export PATH="/usr/local/mysql/bin:/Users/sg0301656/pear/bin/:$PATH"
 # -- ruby
 export PATH="$HOME/.rbenv/shims:$PATH"
-# -- laravel
-export PATH="$HOME/bin:/usr/local/bin:~/.composer/vendor/bin:$PATH"
 # -- yarn
 export PATH="$HOME/.yarn/bin:$PATH"
 
