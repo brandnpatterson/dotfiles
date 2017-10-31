@@ -21,17 +21,16 @@ export NVM_DIR=~/.nvm
 # svn up
 # svn commit -m 'created new branch'
 
+# -- host
+export PGHOST=localhos
 # -- pear
 export PATH="/usr/local/mysql/bin:/Users/sg0301656/pear/bin/:$PATH"
-
 # -- ruby
 export PATH="$HOME/.rbenv/shims:$PATH"
-
+# -- laravel
+export PATH="$HOME/.composer/vendor/bin"
 # -- yarn
 export PATH="$HOME/.yarn/bin:$PATH"
-
-# -- host
-export PGHOST=localhost
 
 # -- alias --
 alias ans="atom . && npm start"
