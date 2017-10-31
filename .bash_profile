@@ -22,13 +22,13 @@ export NVM_DIR=~/.nvm
 # svn commit -m 'created new branch'
 
 # -- host
-export PGHOST=localhos
+export PGHOST=localhost
 # -- pear
 export PATH="/usr/local/mysql/bin:/Users/sg0301656/pear/bin/:$PATH"
 # -- ruby
 export PATH="$HOME/.rbenv/shims:$PATH"
 # -- laravel
-export PATH="$HOME/.composer/vendor/bin"
+export PATH="$HOME/bin:/usr/local/bin:~/.composer/vendor/bin:$PATH"
 # -- yarn
 export PATH="$HOME/.yarn/bin:$PATH"
 
