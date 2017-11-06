@@ -23,8 +23,6 @@ export NVM_DIR=~/.nvm
 
 # -- host
 export PGHOST=localhost
-# -- pear
-export PATH="/usr/local/mysql/bin:/Users/sg0301656/pear/bin/:$PATH"
 # -- ruby
 export PATH="$HOME/.rbenv/shims:$PATH"
 # -- yarn
