@@ -1,4 +1,4 @@
-# # -- color --
+# -- color --
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
@@ -8,7 +8,7 @@ export NVM_DIR=~/.nvm
 . $(brew --prefix nvm)/nvm.sh
 
 # --- SVN ---
-# cd www
+# cd www/shs
 # svn co https:// --depth immediates repo
 # cd repo
 # svn up --set-depth infinity trunk
@@ -20,6 +20,8 @@ export NVM_DIR=~/.nvm
 # cd branches/branch
 # svn up
 # svn commit -m 'created new branch'
+
+alias bash="code ~/.bash_profile"
 
 # -- sh
 export PATH=$PATH:/usr/local/bin
@@ -56,8 +58,7 @@ alias files:show='defaults write com.apple.finder AppleShowAllFiles YES; killall
 
 # -- cd
 alias cd:wp="cd ~/www/wordpress"
-alias cd:blog="cd ~/www/wordpress/wp-blog/wp-content/themes/wp-blog"
-alias cd:theme="cd ~/www/wordpress/wp-theme/wp-content/themes/shapely-child"
+alias cd:shs="cd ~/www/shs"
 
 # -- set emergenc permissions
 set_permissions () {
@@ -78,7 +79,7 @@ set_permissions () {
     $app_config
     $updates\n"
 }
-alias set777="set_permissions"
+alias chmod777="set_permissions"
 
 
 # --
@@ -180,7 +181,8 @@ set_depth_trunk () {
 # --
 svn_help () {
     printf "svn:coi     co --depth immediates
-svn:sdt     --set-depth infinity trunk 
+svn:sdt     --set-depth infinity trunk
+branch: svn up --set-depth infinity branches/branch
 "
 }
 alias svn:help="svn_help"
