@@ -1,3 +1,15 @@
+#-- CD --#
+# wordpress
+alias cd:wp="cd ~/code/htdocs/wp"
+# muckrack
+alias cd:mr="cd ~/code/django/muckrack; workon muckrack"
+# runebear
+alias cd:rb="cd ~/code/htdocs/wp/runebear/wp-content/themes/runebear"
+#  go-edit-graphics-app
+alias cd:ge="cd ~/code/node/go-edit-graphics-app"
+# my-upventur
+alias cd:uv="cd ~/code/react-native/my-upventur/client"
+
 # color
 export PS1="\[\033[32m\]\$(parse_git_branch)\[\033[00m\] \[\033[33;1m\]\w\[\033[m\] \$ "
 export CLICOLOR=1
@@ -70,5 +82,4 @@ wp-create () {
     cd ../..;
 }
 
-alias cd:wp="cd ~/code/htdocs/wp"
 alias wp-create="wp-create $1"
