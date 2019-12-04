@@ -11,6 +11,10 @@ alias cd:ge="cd ~/code/node/go-edit-graphics-app"
 alias cd:uv="cd ~/code/react-native/my-upventur/client"
 
 # color
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
 export PS1="\[\033[32m\]\$(parse_git_branch)\[\033[00m\] \[\033[33;1m\]\w\[\033[m\] \$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
@@ -19,10 +23,6 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
-
-parse_git_branch() {
-  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-}
 
 # mysql
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
