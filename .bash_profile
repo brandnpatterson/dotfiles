@@ -1,15 +1,3 @@
-#-- CD --#
-# wordpress
-alias cd:wp="cd ~/code/htdocs/wp"
-# muckrack
-alias cd:mr="cd ~/code/django/muckrack; workon muckrack"
-# runebear
-alias cd:rb="cd ~/code/htdocs/wp/runebear/wp-content/themes/runebear"
-#  go-edit-graphics-app
-alias cd:ge="cd ~/code/node/go-edit-graphics-app"
-# my-upventur
-alias cd:uv="cd ~/code/react-native/my-upventur/client"
-
 # color
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
