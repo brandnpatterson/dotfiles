@@ -1,0 +1,39 @@
+{
+  "[javascript, jsx]": {
+    "editor.tabSize": 2
+  },
+  "editor.tabSize": 4,
+  "ActiveFileInStatusBar.fullpath": false,
+  "atomKeymap.promptV3Features": true,
+  "breadcrumbs.enabled": false,
+  "editor.detectIndentation": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  "emmet.triggerExpansionOnTab": true,
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.html": "html"
+  },
+  "files.exclude": {
+    "node_modules/": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "html.format.enable": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier": {
+    "singleQuote": true
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/bower_components": true,
+    "**/node_modules": true,
+    "**/tmp": true
+  },
+  "workbench.colorTheme": "Slack Theme Dark Mode",
+  "workbench.iconTheme": "file-icons",
+  "editor.formatOnType": true,
+  "workbench.startupEditor": "newUntitledFile"
+}
