@@ -1,7 +1,14 @@
 {
-  "[javascript, jsx]": {
+  "[javascript]": {
     "editor.tabSize": 2
   },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[vue]": {
+    "editor.tabSize": 2
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
   "editor.tabSize": 4,
   "ActiveFileInStatusBar.fullpath": false,
   "atomKeymap.promptV3Features": true,
@@ -9,7 +16,6 @@
   "editor.detectIndentation": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-
   "emmet.triggerExpansionOnTab": true,
   "files.associations": {
     "*.jsx": "javascriptreact",
@@ -35,5 +41,6 @@
   "workbench.colorTheme": "Slack Theme Dark Mode",
   "workbench.iconTheme": "file-icons",
   "editor.formatOnType": true,
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false
 }
