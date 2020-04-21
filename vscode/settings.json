@@ -29,9 +29,7 @@
   "html.format.enable": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
-  "prettier": {
-    "singleQuote": true
-  },
+  "prettier.singleQuote": true,
   "search.exclude": {
     "**/.git": true,
     "**/bower_components": true,
