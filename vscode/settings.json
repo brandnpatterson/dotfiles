@@ -10,16 +10,25 @@
   },
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.tabSize": 4,
+  "editor.wordWrap": "on",
   "ActiveFileInStatusBar.fullpath": false,
   "atomKeymap.promptV3Features": true,
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "editor.detectIndentation": true,
   "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
   "editor.formatOnSave": true,
+  "vetur.validation.template": false,
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "javascript.validate.enable": false,
+  "javascript.format.enable": false,
   "emmet.triggerExpansionOnTab": true,
   "files.associations": {
-    "*.jsx": "javascriptreact",
-    "*.html": "html"
+    "*.js": "javascriptreact",
+    "*.html": "html",
+    "*.pre": "php"
   },
   "files.exclude": {
     "node_modules/": true
@@ -38,7 +47,13 @@
   },
   "workbench.colorTheme": "Slack Theme Dark Mode",
   "workbench.iconTheme": "file-icons",
-  "editor.formatOnType": true,
   "workbench.startupEditor": "newUntitledFile",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.languageServer": "Microsoft",
+  "python.showStartPage": false,
+  "window.zoomLevel": 0
 }
